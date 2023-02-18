@@ -6,3 +6,4 @@ COPY yarn.lock .
 RUN yarn
 COPY . .
 CMD ["yarn", "dev"]
+EXPOSE 5173
